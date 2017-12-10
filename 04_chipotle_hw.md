@@ -50,10 +50,10 @@ $ grep "Chicken Burrito" chipotle.tsv | grep "Black Beans" | wc -l
 $ grep "Chicken Burrito" chipotle.tsv | grep "Pinto Beans" | wc -l
 105
 
-#### Make a list of all of the CSV or TSV files in [our class repo] (https://github.com/ga-students/DS-SEA-08). (using a single command). 
-$ find . -type f \( -name "*.tsv" -o -name "*.csv" \) | wc -l
-30
-$ find . -type f \( -name "*.tsv" -o -name "*.csv" \) -print
+#### Make a list of all of the CSV or TSV files in [our class repo](https://github.com/ga-students/DS-SEA-08). (using a single command). 
+$ find . -type f \( -name "*.tsv" -o -name "*.csv" \) | wc -l  
+30  
+$ find . -type f \( -name "*.tsv" -o -name "*.csv" \) -print  
 ./data/airlines.csv
 ./data/Airline_on_time_west_coast.csv
 ./data/bank-additional.csv
@@ -85,7 +85,7 @@ $ find . -type f \( -name "*.tsv" -o -name "*.csv" \) -print
 ./data/yelp.csv
 ./notebooks/GMapJson.csv
 
-#### Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files of [our class repo] (https://github.com/ga-students/DS-SEA-8).
-$ grep -r "dictionary" . | wc -w
-886
+#### Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files of [our class repo](https://github.com/ga-students/DS-SEA-8).
+$ grep -r "dictionary" . | wc -w  
+886  
 886 instances of the word "dictionary"
